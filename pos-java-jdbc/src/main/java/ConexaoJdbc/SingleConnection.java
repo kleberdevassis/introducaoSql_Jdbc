@@ -17,7 +17,7 @@ public class SingleConnection {
 	public SingleConnection() {
 		conectar();
 	}
-
+//
 	private static void conectar() {
 		
 		try {
