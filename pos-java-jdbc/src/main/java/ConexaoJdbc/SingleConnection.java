@@ -2,6 +2,8 @@ package ConexaoJdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.util.ArrayList;
+import java.util.List;
 
 public class SingleConnection {
 
@@ -34,6 +36,8 @@ public class SingleConnection {
 		}
 
 	}
+	
+	
 	
 	public static Connection getConnection() {
 		return connection;
