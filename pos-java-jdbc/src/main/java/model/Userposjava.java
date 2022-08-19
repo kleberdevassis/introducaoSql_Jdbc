@@ -1,12 +1,11 @@
 package model;
 
-public class UserPosJava {
-	
-	
+public class Userposjava {
 	
 	private Long id;
 	private String nome;
 	private String email;
+	
 	public Long getId() {
 		return id;
 	}
@@ -25,7 +24,6 @@ public class UserPosJava {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
 	
 	
 

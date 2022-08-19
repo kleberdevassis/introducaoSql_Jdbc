@@ -4,18 +4,18 @@ import org.junit.Test;
 
 import ConexaoJdbc.SingleConnection;
 import dao.UserPosDao;
-import model.UserPosJava;
+import model.Userposjava;
 
-public class TesteBancoJdbc {
+public class TesteBancoJdbc{
 	
 	
 	@Test
 	public void initBanco() {
 		UserPosDao userPosDao = new UserPosDao();
-		UserPosJava userPosJava = new UserPosJava();
+		Userposjava userposjava = new Userposjava();
 		
+		userPosDao.salvar(userposjava);
 		
-		userPosDao.salvar(userPosJava);
 	}
 
 }

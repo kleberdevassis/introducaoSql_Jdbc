@@ -7,9 +7,9 @@ import java.util.List;
 
 public class SingleConnection {
 
-	private static String url = "jdbc:postgresql://localhost:5432/posjava";
+	private static String url = "jdbc:postgresql://localhost:5434/posjava";
 	private static String password = "Kleber01@";
-	private static String user = "kleber";
+	private static String user = "postgres";
 	private static Connection connection = null;
 	
 	static {
