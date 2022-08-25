@@ -21,7 +21,6 @@ public class SingleConnection {
 	}
 //
 	private static void conectar() {
-		
 		try {
 			
 			if (connection == null) {
