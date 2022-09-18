@@ -6,6 +6,7 @@ public class Pessoa {
 	private String nome = "kleber";
 	private int idade = 55;
 	private int cpf = 23412342;
+	private double altura = 1.86;
 	public String getNome() {
 		return nome;
 	}
