@@ -1,5 +1,7 @@
 package testeParaGitHub;
 
+import java.util.Date;
+
 public class Pessoa {
 
 	
@@ -7,6 +9,8 @@ public class Pessoa {
 	private int idade = 55;
 	private int cpf = 23412342;
 	private double altura = 1.86;
+	private Date dataNascimento2;
+	
 	public String getNome() {
 		return nome;
 	}
